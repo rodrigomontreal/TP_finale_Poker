@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1A8C361F99482E009751A1 /* Artboard 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A8C351F99482E009751A1 /* Artboard 4.png */; };
+		9B1A8C3A1F995687009751A1 /* back_rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A8C391F995687009751A1 /* back_rose.png */; };
+		9B1A8C3C1F995698009751A1 /* orangefront.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A8C3B1F995698009751A1 /* orangefront.png */; };
+		9B1A8C3E1F99578E009751A1 /* rioCarnival.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A8C3D1F99578E009751A1 /* rioCarnival.png */; };
+		9B9634571F97DF6C0057C841 /* userDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9634561F97DF6C0057C841 /* userDefaultsManager.swift */; };
+		9BEFF7A31F9A8DED001FF8EE /* bg_carnival.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BEFF79F1F9A8DED001FF8EE /* bg_carnival.png */; };
+		9BEFF7A41F9A8DED001FF8EE /* cards_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BEFF7A01F9A8DED001FF8EE /* cards_bg.png */; };
+		9BEFF7A51F9A8DED001FF8EE /* rio_carnival_bleue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BEFF7A11F9A8DED001FF8EE /* rio_carnival_bleue.jpg */; };
+		9BEFF7A61F9A8DED001FF8EE /* rio_carnival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BEFF7A21F9A8DED001FF8EE /* rio_carnival.jpg */; };
 		9BFC95EB1F952EEC00E09B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC95EA1F952EEC00E09B9A /* AppDelegate.swift */; };
 		9BFC95ED1F952EEE00E09B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC95EC1F952EEE00E09B9A /* ViewController.swift */; };
 		9BFC95F01F952EEF00E09B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC95EE1F952EEF00E09B9A /* Main.storyboard */; };
@@ -106,9 +115,19 @@
 		9BFC96BB1F95356E00E09B9A /* blur_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC96B61F95356E00E09B9A /* blur_3.png */; };
 		9BFC96BC1F95356E00E09B9A /* blur_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC96B71F95356E00E09B9A /* blur_4.png */; };
 		9BFC96BD1F95356E00E09B9A /* blur_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC96B81F95356E00E09B9A /* blur_5.png */; };
+		9BFC96BF1F954DB600E09B9A /* PokerHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC96BE1F954DB600E09B9A /* PokerHands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1A8C351F99482E009751A1 /* Artboard 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Artboard 4.png"; path = "images/cards/Artboard 4.png"; sourceTree = "<group>"; };
+		9B1A8C391F995687009751A1 /* back_rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_rose.png; path = images/cards/back_rose.png; sourceTree = "<group>"; };
+		9B1A8C3B1F995698009751A1 /* orangefront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangefront.png; path = images/cards/orangefront.png; sourceTree = "<group>"; };
+		9B1A8C3D1F99578E009751A1 /* rioCarnival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rioCarnival.png; path = images/cards/rioCarnival.png; sourceTree = "<group>"; };
+		9B9634561F97DF6C0057C841 /* userDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userDefaultsManager.swift; sourceTree = "<group>"; };
+		9BEFF79F1F9A8DED001FF8EE /* bg_carnival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_carnival.png; path = images/cards/bg_carnival.png; sourceTree = "<group>"; };
+		9BEFF7A01F9A8DED001FF8EE /* cards_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cards_bg.png; path = images/cards/cards_bg.png; sourceTree = "<group>"; };
+		9BEFF7A11F9A8DED001FF8EE /* rio_carnival_bleue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rio_carnival_bleue.jpg; path = images/cards/rio_carnival_bleue.jpg; sourceTree = "<group>"; };
+		9BEFF7A21F9A8DED001FF8EE /* rio_carnival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rio_carnival.jpg; path = images/cards/rio_carnival.jpg; sourceTree = "<group>"; };
 		9BFC95E71F952EEC00E09B9A /* Poker_TPF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poker_TPF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFC95EA1F952EEC00E09B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BFC95EC1F952EEE00E09B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +229,7 @@
 		9BFC96B61F95356E00E09B9A /* blur_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blur_3.png; path = images/blurs/blur_3.png; sourceTree = "<group>"; };
 		9BFC96B71F95356E00E09B9A /* blur_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blur_4.png; path = images/blurs/blur_4.png; sourceTree = "<group>"; };
 		9BFC96B81F95356E00E09B9A /* blur_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blur_5.png; path = images/blurs/blur_5.png; sourceTree = "<group>"; };
+		9BFC96BE1F954DB600E09B9A /* PokerHands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerHands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,10 +262,12 @@
 		9BFC95E91F952EEC00E09B9A /* Poker_TPF */ = {
 			isa = PBXGroup;
 			children = (
+				9BFC96BE1F954DB600E09B9A /* PokerHands.swift */,
 				9BFC95FD1F9530FC00E09B9A /* font */,
 				9BFC95FC1F9530F100E09B9A /* image */,
 				9BFC95EA1F952EEC00E09B9A /* AppDelegate.swift */,
 				9BFC95EC1F952EEE00E09B9A /* ViewController.swift */,
+				9B9634561F97DF6C0057C841 /* userDefaultsManager.swift */,
 				9BFC95EE1F952EEF00E09B9A /* Main.storyboard */,
 				9BFC95F11F952EEF00E09B9A /* Assets.xcassets */,
 				9BFC95F31F952EEF00E09B9A /* LaunchScreen.storyboard */,
@@ -289,6 +311,14 @@
 		9BFC96031F9533F800E09B9A /* cards */ = {
 			isa = PBXGroup;
 			children = (
+				9BEFF79F1F9A8DED001FF8EE /* bg_carnival.png */,
+				9BEFF7A01F9A8DED001FF8EE /* cards_bg.png */,
+				9BEFF7A11F9A8DED001FF8EE /* rio_carnival_bleue.jpg */,
+				9BEFF7A21F9A8DED001FF8EE /* rio_carnival.jpg */,
+				9B1A8C3D1F99578E009751A1 /* rioCarnival.png */,
+				9B1A8C3B1F995698009751A1 /* orangefront.png */,
+				9B1A8C391F995687009751A1 /* back_rose.png */,
+				9B1A8C351F99482E009751A1 /* Artboard 4.png */,
 				9BFC96421F9534F800E09B9A /* 1c.png */,
 				9BFC96431F9534F800E09B9A /* 1d.png */,
 				9BFC96441F9534F800E09B9A /* 1h.png */,
@@ -456,11 +486,13 @@
 				9BFC96A91F9534F800E09B9A /* 13h.png in Resources */,
 				9BFC96A21F9534F800E09B9A /* 11s.png in Resources */,
 				9BFC96991F9534F800E09B9A /* 9h.png in Resources */,
+				9B1A8C3E1F99578E009751A1 /* rioCarnival.png in Resources */,
 				9BFC96941F9534F800E09B9A /* 8d.png in Resources */,
 				9BFC96971F9534F800E09B9A /* 9c.png in Resources */,
 				9BFC969F1F9534F800E09B9A /* 11c.png in Resources */,
 				9BFC96001F95333000E09B9A /* couture-bld.otf in Resources */,
 				9BFC96411F9534D500E09B9A /* Icon-1024.png in Resources */,
+				9BEFF7A61F9A8DED001FF8EE /* rio_carnival.jpg in Resources */,
 				9BFC96251F9534D500E09B9A /* Icon-20.png in Resources */,
 				9BFC95F51F952EEF00E09B9A /* LaunchScreen.storyboard in Resources */,
 				9BFC96401F9534D500E09B9A /* Icon-512.png in Resources */,
@@ -477,6 +509,7 @@
 				9BFC96A61F9534F800E09B9A /* 12s.png in Resources */,
 				9BFC963F1F9534D500E09B9A /* Icon-256.png in Resources */,
 				9BFC96A11F9534F800E09B9A /* 11h.png in Resources */,
+				9B1A8C361F99482E009751A1 /* Artboard 4.png in Resources */,
 				9BFC96871F9534F800E09B9A /* 5c.png in Resources */,
 				9BFC96B31F95353E00E09B9A /* logo.png in Resources */,
 				9BFC963D1F9534D500E09B9A /* Icon-180.png in Resources */,
@@ -491,7 +524,9 @@
 				9BFC96801F9534F800E09B9A /* 3d.png in Resources */,
 				9BFC96931F9534F800E09B9A /* 8c.png in Resources */,
 				9BFC96BC1F95356E00E09B9A /* blur_4.png in Resources */,
+				9BEFF7A41F9A8DED001FF8EE /* cards_bg.png in Resources */,
 				9BFC96AA1F9534F800E09B9A /* 13s.png in Resources */,
+				9BEFF7A51F9A8DED001FF8EE /* rio_carnival_bleue.jpg in Resources */,
 				9BFC96981F9534F800E09B9A /* 9d.png in Resources */,
 				9BFC963A1F9534D500E09B9A /* Icon-152.png in Resources */,
 				9BFC968E1F9534F800E09B9A /* 6s.png in Resources */,
@@ -503,6 +538,7 @@
 				9BFC95F21F952EEF00E09B9A /* Assets.xcassets in Resources */,
 				9BFC96771F9534F800E09B9A /* 1c.png in Resources */,
 				9BFC963C1F9534D500E09B9A /* Icon-172.png in Resources */,
+				9B1A8C3C1F995698009751A1 /* orangefront.png in Resources */,
 				9BFC96BD1F95356E00E09B9A /* blur_5.png in Resources */,
 				9BFC962E1F9534D500E09B9A /* Icon-60.png in Resources */,
 				9BFC96891F9534F800E09B9A /* 5h.png in Resources */,
@@ -538,6 +574,7 @@
 				9BFC967C1F9534F800E09B9A /* 2d.png in Resources */,
 				9BFC96B11F95353E00E09B9A /* buttons.png in Resources */,
 				9BFC969C1F9534F800E09B9A /* 10d.png in Resources */,
+				9BEFF7A31F9A8DED001FF8EE /* bg_carnival.png in Resources */,
 				9BFC96361F9534D500E09B9A /* Icon-114.png in Resources */,
 				9BFC96321F9534D500E09B9A /* Icon-80.png in Resources */,
 				9BFC96911F9534F800E09B9A /* 7h.png in Resources */,
@@ -548,6 +585,7 @@
 				9BFC96B91F95356E00E09B9A /* blur_1.png in Resources */,
 				9BFC96AB1F9534F800E09B9A /* back.png in Resources */,
 				9BFC96A71F9534F800E09B9A /* 13c.png in Resources */,
+				9B1A8C3A1F995687009751A1 /* back_rose.png in Resources */,
 				9BFC962D1F9534D500E09B9A /* Icon-58.png in Resources */,
 				9BFC96821F9534F800E09B9A /* 3s.png in Resources */,
 			);
@@ -561,6 +599,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BFC95ED1F952EEE00E09B9A /* ViewController.swift in Sources */,
+				9BFC96BF1F954DB600E09B9A /* PokerHands.swift in Sources */,
+				9B9634571F97DF6C0057C841 /* userDefaultsManager.swift in Sources */,
 				9BFC95EB1F952EEC00E09B9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -723,6 +763,7 @@
 				9BFC95FB1F952EEF00E09B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
