@@ -15,7 +15,7 @@ import Foundation // bibliothèque
 class UserDefaultsManager {
     //------
     func doesKeyExist(theKey : String) -> Bool{
-        if UserDefaults.standard.object(forKey: "credits") == nil { // salvegarder information sur swift
+        if UserDefaults.standard.object(forKey: theKey) == nil { // salvegarder information sur swift
             return false
         }
         return true
