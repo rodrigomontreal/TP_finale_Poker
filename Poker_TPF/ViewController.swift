@@ -431,19 +431,24 @@ class ViewController: UIViewController {
 // Boutton pour reseter le jeu e les valeurs de credits
  
     @IBAction func resetPlayer(_ sender: UIButton) {
-        for back in arrOfSlotImageViews {
-            back.image = UIImage(named: "back.png")
-                     }
-     
-        if creditsLabel.text != "2000" {
-            creditsLabel.text = "CRÉDITS : 2000"
-            betLabel.text = "MISE : 0"
-                    }
+       for back in arrOfSlotImageViews {
+           back.image = UIImage(named: "back.png")
+        }
         
+        if sender.tag == 5000 {
+            bet = 0
+            betLabel.text = "MISE : \(bet)"
+            credits = 2000
+            creditsLabel.text = "CRÉDITS : \(credits)"
+            dealButton.alpha = 1.0
+            tempLabel.text = "BONNE CHANCE"
+            return
+
+        
+         }
+    
     }
     
-        
-
 
 //----------------------//----------------
 }

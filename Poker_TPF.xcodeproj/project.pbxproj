@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B8783891F9FD85300830CA2 /* launch.psd in Resources */ = {isa = PBXBuildFile; fileRef = 5B8783881F9FD85300830CA2 /* launch.psd */; };
 		5B9B7AB01F9C1CF00090FE27 /* couture-bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B7AAE1F9C1CF00090FE27 /* couture-bld.otf */; };
 		5B9B7AB11F9C1CF00090FE27 /* Indiana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B7AAF1F9C1CF00090FE27 /* Indiana.ttf */; };
 		5B9B7ABC1F9C1D780090FE27 /* blur_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B7AB71F9C1D780090FE27 /* blur_1.png */; };
@@ -114,7 +113,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B8783881F9FD85300830CA2 /* launch.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = launch.psd; path = images/misc/launch.psd; sourceTree = "<group>"; };
 		5B9B7AAE1F9C1CF00090FE27 /* couture-bld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "couture-bld.otf"; path = "../../fonts/couture-bld.otf"; sourceTree = "<group>"; };
 		5B9B7AAF1F9C1CF00090FE27 /* Indiana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Indiana.ttf; path = ../../fonts/Indiana.ttf; sourceTree = "<group>"; };
 		5B9B7AB71F9C1D780090FE27 /* blur_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blur_1.png; path = images/blurs/blur_1.png; sourceTree = "<group>"; };
@@ -354,7 +352,6 @@
 		5B9B7AB51F9C1D2E0090FE27 /* misc */ = {
 			isa = PBXGroup;
 			children = (
-				5B8783881F9FD85300830CA2 /* launch.psd */,
 				9B083CA41F9ECFF700600A60 /* launch.png */,
 				9B083CA21F9E8A5400600A60 /* logo.png */,
 				5B9B7AC11F9C1D8B0090FE27 /* bg.png */,
@@ -514,7 +511,6 @@
 				5B9B7B311F9C1DA30090FE27 /* back_old.png in Resources */,
 				5B9B7ABE1F9C1D780090FE27 /* blur_3.png in Resources */,
 				5B9B7B1E1F9C1DA30090FE27 /* 9d.png in Resources */,
-				5B8783891F9FD85300830CA2 /* launch.psd in Resources */,
 				5B9B7B1C1F9C1DA30090FE27 /* 8s.png in Resources */,
 				9B083CA31F9E8A5400600A60 /* logo.png in Resources */,
 				5B9B7B571F9C1DC80090FE27 /* Icon-50.png in Resources */,
